@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リレー</title>
+    <script src="https://kit.fontawesome.com/022ed954ef.js" crossorigin="anonymous"></script>
+    <!-- リセットCSS読込 -->
+    <link rel="stylesheet" href="../style/reset.css">
+    <!-- スタイルCSS読込 -->
+    <link rel="stylesheet" href="../style/relay.css">
+    <link rel="stylesheet" href="../style/loader.css">
+</head>
+
+
+<!-- ============================================================== -->
+<!--                             ボディー                            -->
+<!-- ============================================================== -->
+<body>
+    <div id="global-container">
+        <!-- 共通設定 -->
+        <div class="header">
+            <nav class="mobile-menu">
+                <ul class="mobile-menu__main">
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="tester.html">
+                            <span class="title">テスター</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="../index.html">
+                            <span class="title">電気部品</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="e-drawing.html">
+                            <span class="title">電気図面</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="plc.html">
+                            <span class="title">工具</span>
+                        </a>
+                    </li>
+                    <!-- <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="tp.html">
+                            <span class="title">タッチパネル</span>
+                        </a>
+                    </li> -->
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="../index.html">
+                            <span class="title">メイン画面</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__container1">
+                <!-- 3点アニメション フリーズ確認用 -->
+                <div class="bounce">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <!-- 文字列アニメーション -->
+                <div class="char-box">
+                    ISOWA eLearning
+                </div>
+            </div>
+            <div class="header__container2">
+                <div class="header__menu-select">
+                    <ul>
+                        <li class="header__sub-menu1">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="tester.html" class="header__contents">テスター</a>
+                            <ul class="header__sub-menu1__list1">
+                                <!-- <li><a href="tester.html">テスターとは</a></li> -->
+                                <!-- <li><a href="#">電圧確認</a></li>
+                                <li><a href="#">断線調査</a></li> -->
+                                <!-- <li><a href="#"></a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu2">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="../index.html" class="header__contents">電気部品</a>
+                            <ul class="header__sub-menu2__list2">
+                                <li><a href="switch.html">スイッチ</a></li>
+                                <li><a href="relay.html">リレー</a></li>
+                                <li><a href="timer.html">タイマー</a></li>
+                                <li><a href="magnet.html">マグネットスイッチ</a></li>
+                                <!-- <li><a href="#">パワーサプライ</a></li> -->
+                                <!-- <li><a href="#">インバータ</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu3">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="e-drawing.html" class="header__contents">電気図面</a>
+                            <ul class="header__sub-menu3__list3">
+                                <!-- <li><a href="#">図面の見方</a></li> -->
+                                <!-- <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu4">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="plc.html" class="header__contents">工具</a>
+                            <ul class="header__sub-menu4__list4">
+                                <!-- <li><a href="#">シーケンサとは</a></li>
+                                <li><a href="#">パソコン接続方法</a></li>
+                                <li><a href="#">ソフト読出／書込</a></li>
+                                <li><a href="#">異常内容の調べ方</a></li> -->
+                                <!-- <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <!-- <li class="header__sub-menu5">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="tp.html" class="header__contents">タッチパネル</a>
+                            <ul class="header__sub-menu5__list5">
+                                <li><a href="#">タッチパネルとは</a></li>
+                                <li><a href="#">パソコン接続方法</a></li>
+                                <li><a href="#">ソフト読出／書込</a></li>
+                                <li><a href="#">SDカードを使用</a></li>
+                                <li><a href="#">異常内容の調べ方</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="header__sub-menu6">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <a href="../index.html" class="header__contents">トップ画面</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <a href="#" class="btn-scroll"><i class="fas fa-arrow-up fa-2x"></i></a>
+                <!-- メニューアイコン（モバイル画面のみ表示） -->
+                <button class="mobile-menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+
+<!-- ============================================================== -->
+<!--                           ここから本文                           -->
+<!-- ============================================================== -->
+
+        <div id="container">
+            <div class="mobile-menu__cover"></div>
+            <ul class="main-title animate-title">
+                <h1>リレーについて学ぼう！</h1>
+                
+                <div class="table-contents">
+                    <h2>目次</h2>
+                    <li class="contents">
+                        <a href="#content001" class="contents__link">リレーの種類</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content002" class="contents__link">有接点リレーの種類</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content003" class="contents__link">リレーの働き(機能)</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content004" class="contents__link">リレーの接点構成</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content005" class="contents__link">リレーを使う時の注意点</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content006" class="contents__link">まとめ</a>
+                    </li>
+                </div>
+
+                <!-- リレーの種類 -->
+                <li id="content001">
+                    <div class="sub-title">
+                        <p>リレーの種類</p>
+                    </div>
+                    <div class="item">
+                        <div class="img1-1"></div>
+                        <div class="text">
+                            <span>リレーは電磁継電器とも呼ばれ、設備の制御には必ずと<br class="br-add_320-560">言っていいほど使用されている<br class="br-del_320-560">部品です。
+                                <br class="br-add_320-560"><br class="br-add_320-560">
+                                このリレーは機械接点を開閉させる「有接点リレー」と、半導体部品で構成され電子的にオンオフを行う「無接点リレー」があります。<br class="br-add_560-720">
+                                <br class="br-add_320-560">
+                                今回は「有接点リレー」について説明していきます。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img1-2"></div>
+                        <div class="text">
+                            <span>有接点リレーは電磁石の力で鉄片を引き寄せる入力側と、可動接点を動作させ回路を<br class="br-del_320-560">
+                                開閉する出力側に分かれて構成されています。入力側のコイルに電流が流れると鉄芯が<br>
+                                磁化され、その電磁力により鉄片が鉄芯に吸引されます。鉄片が鉄芯に吸着すると、<br class="br-add_560-720 br-del_320-560">
+                                可動接点が接触し、出力側の回路が閉じ電流が流れるようになります。<br><br>
+                                このように入力側の電流を出力側に「リレー（中継）」<br class="br-add_320-560">することができます。<br class="br-del_320-560">
+                                手でスイッチを押す代わりに電気的に開閉するイメージです。
+                            </div>
+                            <span class="check-point">コイルに電流が流れて、電磁石となり、これに連動して接点が開閉します。</span>
+                            <div class="br"></div>
+                            <span>図記号は下図のように表します。</span>
+                            <br><br>
+                        <div class="img1-3"></div>
+                    </div>
+                </li>
+                <!-- 有接点リレーの種類 -->
+                <li id="content002">
+                    <div class="sub-title">
+                        <p>有接点リレーの種類</p>
+                    </div>
+                    <div class="item">
+                            <div class="img2-1"></div>
+                            <div class="text">
+                                <span>リレーは電構造上の違いから、ヒンジ形とプランジャ形に分けられます。</span>
+                            </div>
+                    </div>
+                    <div class="item">
+                            <div class="img2-2"></div>
+                            <div class="text">
+                                一般的にリレーと呼ばれる部品はヒンジ形のリレーを指して<br class="br-add_320-560">いることが多いです。<br class="br-del_320-560">
+                                プランジャー形のリレーはマグネット<br class="br-add_320-560">スイッチなどを指します。<br><br class="br-add_320-560">
+                                マグネットスイッチなどはプランジャ形のリレーを大形に<br class="br-add_320-560">した構造で、<br class="br-del_320-560">
+                                モーターなどの負荷電流の大きな開閉を目的に使用されます。
+                            </div>
+                    </div>
+                </li>
+                <!-- リレーの働き(機能) -->
+                <li id="content003">
+                    <div class="sub-title">
+                        <p>リレーの働き(機能)</p>
+                    </div>
+                    <span class="font-size">リレーは以下のような働きをします。
+                    </span>
+                    <br><br>
+                    <div class="item">
+                        <span class="sub-emphasize"><i class="fas fa-book-open"></i>小さな信号でモーターなどの大きな負荷を動かす。</span>
+                        <br><br>
+                        <div class="img3-1"></div>
+                        <div class="br"></div>
+                        <span class="sub-emphasize"><i class="fas fa-book-open"></i>１つの信号で複数の回路を開閉する。</span>
+                        <br><br>
+                        <div class="img3-2"></div>
+                        <br><br>
+                        <span class="sub-emphasize"><i class="fas fa-book-open"></i>遠くのモーターやランプなどを動かす。</span>
+                        <br><br>
+                        <span class="sub-emphasize"><i class="fas fa-book-open"></i>他社との信号の取り合いに利用する。</span>
+                    </div>
+                    <div class="br"></div>
+                </li>
+                <!-- リレーの接点構成 -->
+                <li id="content004">
+                    <div class="sub-title">
+                        <p>リレーの接点構成</p>
+                    </div>
+                    <span class="main-emphasize">接点の種類</span>
+                    <span>リレーの接点として、a接点、b接点、c接点があります。</span>
+                    <div class="item">
+                        <div class="img4-1"></div>
+                        <div class="text">
+                            <span>a接点は通常は開いています。<br>
+                                操作指令が入ると、接点が閉じます。<br>
+                                ノーマルオープン接点（NO：normal open、通常開）<br class="br-add_320-560">とも呼ばれます。
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img4-2"></div>
+                        <div class="text">
+                            <span>b接点は通常は閉じています。<br>a接点とは逆の動作をします。<br>操作指令が入ると、接点が開きます。<br>
+                                ノーマルクローズ接点（NC：normal close、通常閉）<br class="br-add_320-560">とも呼ばれます。
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img4-3"></div>
+                        <div class="text">
+                            <span>c接点は、ａ接点とｂ接点を１つにまとめた、可動接点部を共通（COM,コモン）<br class="br-add_560-720 br-del_320-560">
+                                にした接点です。トランスファ接点、切り換え接点とも呼ばれています。<br><br>
+                                通常はb接点がつながっており、操作指令が入るとa接点がつながり、b接点が<br class="br-add_560-720 br-del_320-560">
+                                離れます。c接点はa接点とb接点のどちらを使用するか選ぶことができます。
+                            </span>
+                        </div>
+                    </div>
+                    <span class="main-emphasize">接点構成の表し方</span>
+                    <div class="item">
+                        <span>リレーは接点の種類を「a、b、c」接点数を「1、2、3など」<br class="br-add_320-560">数字で表します。</span>
+                        <div class="box-top_bottom">
+                            <p>接点構成の例</p>
+                            <p><i class="fab fa-ethereum"></i>1a：a接点が1つのリレー</p>
+                            <p><i class="fab fa-ethereum"></i>2b：b接点が2つのリレー</p>
+                            <p><i class="fab fa-ethereum"></i>1a1b：a接点が1つ、b接点が1つのリレー</p>
+                            <p><i class="fab fa-ethereum"></i>2c：c接点が2つのリレー</p>
+                        </div>
+                        <span>下の写真はオムロンのリレーです。<br>
+                            コイル電圧と接点構成は、リレーの表面に書かれている通り。<br><br>
+                            【左側】<br>　コイル電圧：交流(AC)100Vまたは110Ｖ<br>
+                            　接点構成：c接点が2つのリレーです。<br><br>
+                            【右側】<br>　コイル電圧：交流(DC)24V<br>
+                            　接点構成：c接点が4つのリレーです。</span>
+                            <br><br>
+                        <div class="img4-4"></div>
+                    </div>
+                </li>
+                <!-- リレーを使う時の注意点 -->
+                <li id="content005">
+                    <div class="sub-title">
+                        <p>リレーを使う時の注意点</p>
+                    </div>
+                    <div class="item">
+                        <span>リレーを使う場合、使用環境や回路状況などによって動作不良<br class="br-add_320-560">などが起こらないよう、<br class="br-del_320-560">
+                            選定には大きく分けて以下2つの注意<br class="br-add_320-560">が必要です。
+                        </span>
+                        <br><br><br>
+                        <span class="check-point">
+                            <i class="far fa-check-square"></i>コイル電圧
+                            <br>
+                            <i class="far fa-check-square"></i>接点容量
+                        </span>
+                        <br><br><br>
+                        <span class="main-emphasize">コイル電圧について</span>
+                        <p>接点を開閉動作させるための電磁コイルの電圧には下表の<br class="br-add_320-560">ような種類があります。<br><br class="br-add_320-560">
+                            使用する際は、コイルの使用電圧に注意する必要があります。</p>
+                        <table>
+                            <tr>
+                                <td>直流(DC)</td>
+                                <td>5V, 12V, 24V</td>
+                            </tr>
+                            <tr>
+                                <td>交流(AC)</td>
+                                <td>100V, 200V</td>
+                            </tr>
+                        </table>
+                        <p>使用電圧よりも高い電圧を入力した場合はコイルが焼けます。<br>
+                            反対に低い電圧を入力した場合は不安定な動作をするか全く<br class="br-add_320-560">動きません。<br class="br-del_320-560">
+                            また、直流の場合はプラスとマイナスの極性が<br class="br-add_320-560">ありますので、間違えない<br class="br-del_320-560">
+                            ように配線する必要があります。
+                        </p>
+                        <br><br><br>
+                        <span class="main-emphasize">接点容量について</span>
+                        <p>接点が回路を開閉する能力を接点容量といい、選定する時に<br class="br-add_320-560">注意する必要があります。<br class="br-del_320-560">
+                            この接点容量は最大電流値と最大<br class="br-add_320-560">電圧値の２つの値で決まります。<br><br>
+                            出力側に電流が流れ始めるときに「突入電流」といわれる<br class="br-add_320-560">瞬間的に過大な電流が生じる<br class="br-del_320-560">
+                            場合があります。その大きさは<br class="br-add_320-560">負荷により異なりますが、一般的な負荷であるモータで<br>
+                            5～10倍になります。<br class="br-add_320-560"><br class="br-add_320-560">
+                            接点の溶着を防ぐためにも最大電流値（許容できる電流値）を<br>
+                            確認しましょう。接点の最大電圧値はそんなに気にする必要は<br class="br-add_320-560">ありませんが、<br class="br-del_320-560">
+                            最大電流値を確認するタイミングで一緒に<br class="br-add_320-560">確認しておきましょう。</p>
+                    </div>
+                </li>
+                <div class="br"></div>
+
+                <li id="content006">
+                    <div class="sub-title">
+                        <p>まとめ</p>
+                    </div>
+                    <p>リレーは有接点シーケンス制御にほとんど使用される部品<br class="br-add_320-560">です。<br class="br-del_320-560">
+                        仕組みを理解し、様々な種類があるので交換時には<br class="br-add_320-560">注意しましょう。
+                    </p>
+                    <span class="summary">
+                        <i class="far fa-check-square"></i>リレーは有接点と無接点がある。<br>
+                        <i class="far fa-check-square"></i>接点はa接点、b接点、c接点<br>
+                        <i class="far fa-check-square"></i>コイル電圧と接点容量に注意
+                    </span>
+                    <div class="br"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================== -->
+<!--                         javascript 読込                         -->
+<!-- ============================================================== -->
+
+        <!-- javascript -->
+        <script type="text/javascript" src="../javascript/mobile-menu.js"></script>
+        <script type="text/javascript" src="../javascript/pace.js"></script>
+        <script type="text/javascript" src="../javascript/tester.js"></script>
+        <script type="text/javascript" src="../javascript/text-animation.js"></script>
+        <script type="text/javascript" src="../javascript/scroll.js"></script>
+        <script type="text/javascript" src="../javascript/tester-animation.js"></script>
+        <!-- jquery -->
+        <script type="text/javascript" src="../javascript/jquery-3.5.0.min.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-top-scroll.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-contents-scroll.js"></script>
+    </body>
+</html>

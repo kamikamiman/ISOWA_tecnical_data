@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テスター</title>
+    <script src="https://kit.fontawesome.com/022ed954ef.js" crossorigin="anonymous"></script>
+    <!-- リセットCSS読込 -->
+    <link rel="stylesheet" href="../style/reset.css">
+    <!-- スタイルCSS読込 -->
+    <link rel="stylesheet" href="../style/tester.css">
+    <link rel="stylesheet" href="../style/loader.css">
+</head>
+
+
+<!-- ============================================================== -->
+<!--                             ボディー                            -->
+<!-- ============================================================== -->
+<body>
+    <div id="global-container">
+        <!-- 共通設定 -->
+        <div class="header">
+            <nav class="mobile-menu">
+                <ul class="mobile-menu__main">
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="tester.html">
+                            <span class="title">テスター</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="../index.html">
+                            <span class="title">電気部品</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="e-drawing.html">
+                            <span class="title">電気図面</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="plc.html">
+                            <span class="title">工具</span>
+                        </a>
+                    </li>
+                    <!-- <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="tp.html">
+                            <span class="title">タッチパネル</span>
+                        </a>
+                    </li> -->
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="../index.html">
+                            <span class="title">メイン画面</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__container1">
+                <!-- 3点アニメション フリーズ確認用 -->
+                <div class="bounce">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <!-- 文字列アニメーション -->
+                <div class="char-box">
+                    ISOWA eLearning
+                </div>
+            </div>
+            <div class="header__container2">
+                <div class="header__menu-select">
+                    <ul>
+                        <li class="header__sub-menu1">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="tester.html" class="header__contents">テスター</a>
+                            <ul class="header__sub-menu1__list1">
+                                <!-- <li><a href="tester.html">テスターとは</a></li> -->
+                                <!-- <li><a href="#">電圧確認</a></li>
+                                <li><a href="#">断線調査</a></li> -->
+                                <!-- <li><a href="#"></a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu2">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="../index.html" class="header__contents">電気部品</a>
+                            <ul class="header__sub-menu2__list2">
+                                <li><a href="switch.html">スイッチ</a></li>
+                                <li><a href="relay.html">リレー</a></li>
+                                <li><a href="timer.html">タイマー</a></li>
+                                <li><a href="magnet.html">マグネットスイッチ</a></li>
+                                <!-- <li><a href="#">パワーサプライ</a></li> -->
+                                <!-- <li><a href="#">インバータ</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu3">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="e-drawing.html" class="header__contents">電気図面</a>
+                            <ul class="header__sub-menu3__list3">
+                                <!-- <li><a href="#">図面の見方</a></li> -->
+                                <!-- <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu4">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="plc.html" class="header__contents">工具</a>
+                            <ul class="header__sub-menu4__list4">
+                                <!-- <li><a href="#">シーケンサとは</a></li>
+                                <li><a href="#">パソコン接続方法</a></li>
+                                <li><a href="#">ソフト読出／書込</a></li>
+                                <li><a href="#">異常内容の調べ方</a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <!-- <li class="header__sub-menu5">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="tp.html" class="header__contents">タッチパネル</a>
+                            <ul class="header__sub-menu5__list5"> -->
+                                <!-- <li><a href="#">タッチパネルとは</a></li>
+                                <li><a href="#">パソコン接続方法</a></li>
+                                <li><a href="#">ソフト読出／書込</a></li>
+                                <li><a href="#">SDカードを使用</a></li>
+                                <li><a href="#">異常内容の調べ方</a></li> -->
+                            <!-- </ul>
+                        </li> -->
+                        <li class="header__sub-menu6">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <a href="../index.html" class="header__contents">トップ画面</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <a href="#" class="btn-scroll"><i class="fas fa-arrow-up fa-2x"></i></a>
+                <!-- メニューアイコン（モバイル画面のみ表示） -->
+                <button class="mobile-menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+
+<!-- ============================================================== -->
+<!--                           ここから本文                           -->
+<!-- ============================================================== -->
+
+        <div id="container">
+            <div class="mobile-menu__cover"></div>
+            <ul class="main-title animate-title">
+                <h1>テスターについて学ぼう！</h1>
+                <div class="table-contents">
+                    <h2>目次</h2>
+                    <li class="contents">
+                        <a href="#content001" class="contents__link">テスターの用途</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content002" class="contents__link">テスターの各部名称と役割</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content003" class="contents__link">テスターの使用方法</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content004" class="contents__link">これからテスターを使うために</a>
+                    </li>
+                </div>
+                <!-- テスターの用途 -->
+                <li id="content001">
+                    <div class="sub-title">
+                        <p>テスターの用途</p>
+                    </div>
+                    <div class="item">
+                        <div class="img1"></div>
+                        <div class="text">
+                            <span>テスターは直流電圧、交流電圧、抵抗値、直流電流<br class="br-add_320-560">などを測定するときに<br class="br-del_320-560">使用する計器です。
+                                よく使う<br class="br-add_560-720">機能として、「電圧測定」「導通検査」があります。</span>
+                            <br><br><br class="br-del_560-720">
+                            <span class="sub-emphasize"><i class="fas fa-book-open"></i>電圧測定</span>
+                            <br>
+                            <span>コンセントの電圧を確認したい時に使用します。</span>
+                            <br><br><br class="br-del_320-560">
+                            <span class="sub-emphasize"><i class="fas fa-book-open"></i>導通検査</span>
+                            <br>
+                            <span>断線しているか確認したいときに使用します。</span>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- テスターの各部名称と役割 -->
+                <li id="content002">
+                    <div class="sub-title">
+                        <p>テスターの各部名称と役割</p>
+                    </div>
+                    <div class="item">
+                            <div class="img2"></div>
+                            <div class="text">
+                            <span class="sub-emphasize"><i class="fas fa-book-open"></i>リード棒</span>
+                            <br>
+                            <span>測定する箇所に当てます。赤が「+」、黒が「－」です。</span>
+                            <br><br><br class="br-del_560-720">
+                            <span class="sub-emphasize"><i class="fas fa-book-open"></i>液晶表示部</span>
+                            <br>
+                            <span>測定した結果が表示されます。</span>
+                            <br><br><br class="br-del_560-720">
+                            <span class="sub-emphasize"><i class="fas fa-book-open"></i>ファンクションスイッチ</span>
+                            <br>
+                            <span>このスイッチを回して、電源の入切、電圧測定、抵抗測定を選びます。</span>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- テスターの使用方法 -->
+                <li id="content003">
+                    <div class="sub-title">
+                        <p>テスターの使用方法</p>
+                    </div>
+                    <span class="main-emphasize"><i class="fas fa-bolt"></i>始業点検</span>
+                    <span class="font-size">テスターを使用している人で実際に点検している人は少ない<br class="br-add_320-560">かもしれませんが、<br class="br-del_320-560">大切なことなので始業点検を行いましょう。</span>
+                    <br><br><br>
+                    <div class="item">
+                        <div class="img3-1"></div>
+                        <div class="text">
+                            <span>リード棒（テストピン）が断線していないかファンク<br class="br-add_320-560">ションスイッチを<br class="br-del_320-560">「Ω」の抵抗測定レンジにします。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img img3-2"></div>
+                        <div class="text">
+                            <span>赤と黒のリード棒（テストピン）をショートさせます。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img3-3"></div>
+                        <div class="text">
+                            <span>表示が0.00～0.04になっていることを確認します。</span>
+                        </div>
+                    </div>
+                    <span class="check-point">表示が大きい値の場合は断線している可能性があり、<br class="br-add_320-560">修理が必要です。</span>
+                    <div class="br"></div>
+
+                    <!-- 交流電源の測定 -->
+                    <span class="main-emphasize"><i class="fas fa-bolt"></i>交流電圧の測定</span>
+                    <div class="item">
+                        <div class="img3-4"></div>
+                        <div class="text">
+                            <span>ファンクションスイッチを「V～」の交流電圧測定<br class="br-add_320-560">レンジにします。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img3-5"></div>
+                        <div class="text">
+                            <span>交流は＋、－の極性は無いので、気にせずリード棒を<br class="br-add_320-560">コンセントに差し込みます。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img3-6"></div>
+                        <div class="text">
+                            <span>表示された測定値を読み取ります。写真の場合だと<br class="br-add_320-560">103.4Vです。<br class="br-del_320-560">電気がきていることが分かります。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img3-7"></div>
+                        <div class="text">
+                            <span>電気がきていない時は表示が写真のように0.88Vなど低い値を示します。<br class="br-del_320-560">0Vという表示にはなりません。</span>
+                        </div>
+                    </div>
+                    <span class="check-point">単位が「mV」の場合は、「V」の1/1000の値なので数字<br class="br-add_320-560">が大きくても電気はきていませんので<br class="br-del_560-720">間違えない様にしましょう！</span>
+                    <div class="br"></div>
+
+                    <!-- 直流電源の測定 -->
+                    <span class="main-emphasize"><i class="fas fa-bolt"></i>直流電圧の測定</span>
+                    <span class="font-size">例：乾電池の電圧を測定したい場合</span>
+                    <div class="item">
+                        <div class="img3-8"></div>
+                        <div class="text">
+                            <span>ファンクションスイッチを「V__ 」の交流電圧測定レンジにします。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img3-9"></div>
+                        <div class="text">
+                            <span>赤色のリード棒を電池の＋側に、黒色のリード棒を電池の－側に接続します。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img3-10"></div>
+                        <div class="text">
+                            <span>表示された測定値を読み取ります。</span>
+                            <span>一般的によく使用される乾電池で新品の状態であれば<br class="br-add_320-560">1.5Vほどの値が表示されます。<br class="br-del_560-720">充電池は充電された<br class="br-add_320-560">状態で１．２Vほどです。</span>
+                        </div>
+                    </div>
+                    <span class="check-point">電池の消耗を抑えるため、すばやく測定してください。</span>
+                    <div class="br"></div>
+
+                    <!-- 抵抗測定 -->
+                    <span class="main-emphasize"><i class="fas fa-bolt"></i>抵抗測定</span>
+                    <span class="font-size">抵抗測定（導通測定）はトラブル対応時によく使う機能です。</span>
+                    <br><br>
+                    <span>例：ケーブルなどの配線が断線していないか確認したい場合</span>
+                    <div class="item">
+                        <div class="img3-11"></div>
+                        <div class="text">
+                            <span>断線の確認方法は写真の短い電線で使い方を説明して<br class="br-add_320-560">いきます。<br class="br-del_320-560">
+                                写真はただの電線なので電圧はかかってい<br class="br-add_320-560">ませんが、実際に抵抗測定を行う時は<span class="red">電圧が<br class="br-del_320-560">
+                                加わって<br class="br-add_320-560">いない時に測定</span>してください。
+                                テスターの使い方に<br class="br-add_320-560">慣れていない人によくある<br class="br-del_320-560">
+                                失敗です。<br><br>
+                                電圧がかかっている状態で抵抗値を測定すると火花が<br class="br-add_320-560">散り、テスター内のヒューズが飛び<br class="br-del_320-560">
+                                ます。それだけなら<br class="br-add_320-560">まだ良いですが、電圧の大きさによってはプローブが<br class="br-add_320-560">溶けたり、最悪<br class="br-del_320-560">
+                                火傷したりします。<br class="br-add_320-560"><br class="br-add_320-560">電気は、目に見えないので十分に気を付けましょう。</span>
+                        </div>
+                    </div>
+                    <span class="check-point">抵抗測定時は電源をオフにして確認すること。</span>
+                    <div class="br"></div>
+                    <div class="item">
+                        <div class="img3-12"></div>
+                        <div class="text">
+                            <span>ファンクションスイッチを「Ω」の抵抗測定レンジに<br class="br-add_320-560">します。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img3-13"></div>
+                        <div class="text">
+                            <span>電線に赤と黒のリード棒を当てます。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img3-14"></div>
+                        <div class="text">
+                            <span>表示が0Ω付近になっていることを確認します。</span>
+                            <span>0Ω付近だと断線していないこと（導通している）<br class="br-add_320-560">が確認できます。</span>
+                        </div>
+                    </div>
+                    <span class="check-point">抵抗値が小さい（0Ωに近い）＝ 断線していない。<br>
+                        抵抗値が大きい ＝ 接触不良、断線していると判断</span>
+                        <br><br>
+                    <span class="font-size">[Ω]レンジ右横の[ブザー]レンジを選ぶと、導通している場合は<br class="br-add_320-560">[ピー]という音がでます。
+                        <br class="br-del_320-560">テスターの表示を見なくても音で判断<br class="br-add_320-560">することができる便利な機能です。
+                    </span>
+                </li>
+                <!-- これからテスターを使うために -->
+                <li id="content004">
+                    <div class="sub-title">
+                        <p>これからテスターを使うために</p>
+                    </div>
+                    <div class="item">
+                        <span class="font-size">最近の機械では、テスターは現場対応する人にとって必須な<br class="br-add_320-560">道具です。<br class="br-del_320-560">
+                            テスターの正しい操作方法を知り、安全に作業し<br class="br-add_320-560">ましょう。<br><br class="br-add_320-560">
+                            電気がきているか確認してから作業をするのが基本です。<br><br>
+                            そして、お客様から信頼されるISOWAビトになろう！</span>
+                            <br><br><br>
+                            <span class="summary">
+                                <i class="far fa-check-square"></i>テスターで良く使う機能は電圧測定と抵抗測定の２つ。<br>
+                                <i class="far fa-check-square"></i>始業前点検を行うことが大切。<br>
+                                <i class="far fa-check-square"></i>抵抗測定は電圧が加わっていない時に測定する。</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <br>
+    </div>
+</div>
+
+<!-- ============================================================== -->
+<!--                         javascript 読込                         -->
+<!-- ============================================================== -->
+
+        <!-- javascript -->
+        <script type="text/javascript" src="../javascript/mobile-menu.js"></script>
+        <script type="text/javascript" src="../javascript/pace.js"></script>
+        <script type="text/javascript" src="../javascript/tester.js"></script>
+        <script type="text/javascript" src="../javascript/text-animation.js"></script>
+        <script type="text/javascript" src="../javascript/scroll.js"></script>
+        <script type="text/javascript" src="../javascript/tester-animation.js"></script>
+        <!-- jquery -->
+        <script type="text/javascript" src="../javascript/jquery-3.5.0.min.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-top-scroll.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-contents-scroll.js"></script>
+    </body>
+</html>

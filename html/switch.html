@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スイッチ</title>
+    <script src="https://kit.fontawesome.com/022ed954ef.js" crossorigin="anonymous"></script>
+    <!-- リセットCSS読込 -->
+    <link rel="stylesheet" href="../style/reset.css">
+    <!-- スタイルCSS読込 -->
+    <link rel="stylesheet" href="../style/switch.css">
+    <link rel="stylesheet" href="../style/loader.css">
+</head>
+
+
+<!-- ============================================================== -->
+<!--                             ボディー                            -->
+<!-- ============================================================== -->
+<body>
+    <div id="global-container">
+        <!-- 共通設定 -->
+        <div class="header">
+            <nav class="mobile-menu">
+                <ul class="mobile-menu__main">
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="tester.html">
+                            <span class="title">テスター</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="../index.html">
+                            <span class="title">電気部品</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="e-drawing.html">
+                            <span class="title">電気図面</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="plc.html">
+                            <span class="title">工具</span>
+                        </a>
+                    </li>
+                    <!-- <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="tp.html">
+                            <span class="title">タッチパネル</span>
+                        </a>
+                    </li> -->
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="../index.html">
+                            <span class="title">メイン画面</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__container1">
+                <!-- 3点アニメション フリーズ確認用 -->
+                <div class="bounce">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <!-- 文字列アニメーション -->
+                <div class="char-box">
+                    ISOWA eLearning
+                </div>
+            </div>
+            <div class="header__container2">
+                <div class="header__menu-select">
+                    <ul>
+                        <li class="header__sub-menu1">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="tester.html" class="header__contents">テスター</a>
+                            <ul class="header__sub-menu1__list1">
+                                <!-- <li><a href="tester.html">テスターとは</a></li> -->
+                                <!-- <li><a href="#">電圧確認</a></li>
+                                <li><a href="#">断線調査</a></li> -->
+                                <!-- <li><a href="#"></a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu2">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="../index.html" class="header__contents">電気部品</a>
+                            <ul class="header__sub-menu2__list2">
+                                <li><a href="switch.html">スイッチ</a></li>
+                                <li><a href="relay.html">リレー</a></li>
+                                <li><a href="timer.html">タイマー</a></li>
+                                <li><a href="magnet.html">マグネットスイッチ</a></li>
+                                <!-- <li><a href="#">パワーサプライ</a></li> -->
+                                <!-- <li><a href="#">インバータ</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu3">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="e-drawing.html" class="header__contents">電気図面</a>
+                            <ul class="header__sub-menu3__list3">
+                                <!-- <li><a href="#">図面の見方</a></li> -->
+                                <!-- <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu4">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="plc.html" class="header__contents">工具</a>
+                            <ul class="header__sub-menu4__list4">
+                                <!-- <li><a href="#">シーケンサとは</a></li>
+                                <li><a href="#">パソコン接続方法</a></li>
+                                <li><a href="#">ソフト読出／書込</a></li>
+                                <li><a href="#">異常内容の調べ方</a></li> -->
+                                <!-- <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <!-- <li class="header__sub-menu5">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="tp.html" class="header__contents">タッチパネル</a>
+                            <ul class="header__sub-menu5__list5"> -->
+                                <!-- <li><a href="#">タッチパネルとは</a></li>
+                                <li><a href="#">パソコン接続方法</a></li>
+                                <li><a href="#">ソフト読出／書込</a></li>
+                                <li><a href="#">SDカードを使用</a></li>
+                                <li><a href="#">異常内容の調べ方</a></li> -->
+                            <!-- </ul>
+                        </li> -->
+                        <li class="header__sub-menu6">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <a href="../index.html" class="header__contents">トップ画面</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <a href="#" class="btn-scroll"><i class="fas fa-arrow-up fa-2x"></i></a>
+                <!-- メニューアイコン（モバイル画面のみ表示） -->
+                <button class="mobile-menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+
+<!-- ============================================================== -->
+<!--                           ここから本文                           -->
+<!-- ============================================================== -->
+
+        <div id="container">
+            <div class="mobile-menu__cover"></div>
+            <ul class="main-title animate-title">
+                <h1>スイッチについて学ぼう！</h1>
+                
+                <div class="table-contents">
+                    <h2>目次</h2>
+                    <li class="contents">
+                        <a href="#content001" class="contents__link">スイッチの種類</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content002" class="contents__link">スイッチの機能・接点の構成</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content003" class="contents__link">接点の動作方式</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content004" class="contents__link">スイッチを使用するにあたり</a>
+                    </li>
+                </div>
+
+                <!-- スイッチの種類 -->
+                <li id="content001">
+                    <div class="sub-title">
+                        <p>スイッチの種類</p>
+                    </div>
+                    <div class="item">
+                        <div class="img1-1"></div>
+                        <div class="text">
+                            <span>操作用スイッチには押しボタンスイッチ、セレクタ<br class="br-add_320-560">
+                                スイッチ、セレクタスイッチ、ロッカ<br class="br-del_320-560">スイッチ、トグル<br class="br-add_320-560">スイッチなどの種類があります。
+                                今回は設備や制御盤に<br class="br-add_320-560">比較的よく使用<br class="br-del_320-560">されている、押しボタンスイッチと<br class="br-add_320-560">セレクタスイッチについて説明していきます。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="main-emphasize">押しボタンスイッチ</span>
+                        <br>
+                        <div class="img1-2"></div>
+                        <div class="text">
+                            <span>押しボタンスイッチは、機械の運転及び停止などの制御に<br class="br-add_320-560">
+                                用いられ、人の手動操作に<br class="br-del_320-560">よって
+                                接点の開閉をします。<br class="br-add_320-560">
+                                通常は自動復帰接点（モーメンタリー動作）が用いられ<br class="br-add_560-720">
+                                ます。また、押しボタンスイッチの色には意味があり、<br class="br-add_320-560">
+                                以下の様にJISなどの規格で決められています。</span>
+                            </div>
+                        <div class="img1-3"></div>
+                    </div>
+                    <div class="item">
+                        <span class="main-emphasize">セレクタスイッチ</span>
+                        <br>
+                        <div class="img1-4"></div>
+                        <div class="text">
+                            <span>セレクタスイッチは、機械の手動／自動の切り換え、操作の選択などに用いられます。<br>
+                                ツマミ(レバー)などをひねることで接点の開閉をします。<br>
+                                通常は保持形接点を用います。</span>
+                        </div>
+                    </div>
+                </li>
+                <!-- スイッチの機能・接点の構成について -->
+                <li id="content002">
+                    <div class="sub-title">
+                        <p>スイッチの機能・接点の構成</p>
+                    </div>
+                    <div class="item">
+                        <span>操作用スイッチの機能として、接点の開閉動作により、<br class="br-add_320-560">
+                            電気が流したり、止めたりする事が<br class="br-del_320-560">
+                            できます。その接点の<br class="br-add_320-560">種類はa接点、b接点、c接点があります。</span>
+                            <br><br>
+                            <span class="emphasize"><i class="fas fa-pencil-alt"></i>a接点</span>
+                            <div class="img2-1"></div>
+                            <div class="text">
+                                a接点は通常は開いており、操作指令が入ると接点が<br class="br-add_320-560">閉じます。<br class="br-del_320-560">
+                                ノーマルオープン接点（NO：normal open、<br class="br-add_320-560">通常 開）とも呼ばれます。
+                            </div>
+                    </div>
+                    <span class="font-size">例：押しボタンスイッチの場合</span>
+                    <div class="item">
+                            <div class="img2-2"></div>
+                            <div class="text">
+                                <span>押していない場合は接点が開いており、押しボタンスイッチを押すと、接点が閉じます。</span>
+                            </div>
+                            <div class="img2-3"></div>
+                            <div class="text">
+                                <span>IDEC製の押しボタンスイッチの場合、青色の部品で<br class="br-add_320-560"><span class="red">「 NO 」</span>と記載されています。</span>
+                            </div>
+                    </div>
+                    <div class="item">
+                            <span class="emphasize"><i class="fas fa-pencil-alt"></i>b接点</span>
+                            <div class="img2-4"></div>
+                            <div class="text">
+                                b接点はa接点の逆の動作です。<br>
+                                通常は閉じており、操作指令が入ると、接点が開きます。<br>
+                                ノーマルクローズ接点（NC：normal close、通常 閉）<br class="br-add_320-560">とも呼ばれます。</div>
+                    </div>
+                    <span class="font-size">例：押しボタンスイッチの場合</span>
+                    <div class="item">
+                        <div class="img2-5"></div>
+                        <div class="text">
+                            <span>押していない場合は接点が閉じており、押しボタンスイッチを押すと、接点が開きます。<br>
+                                自己保持回路をリセットするためのスイッチや、非常停止スイッチに使用します。</span>
+                        </div>
+                        <div class="img2-6"></div>
+                        <div class="text">
+                            <span>IDEC製の押しボタンスイッチの場合、赤色の部品で<br class="br-add_320-560">
+                                <span class="red">「 NC 」</span>と記載されています。</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="emphasize"><i class="fas fa-pencil-alt"></i>c接点</span>
+                        <div class="img2-7"></div>
+                        <div class="text">
+                            c接点は、ａ接点とｂ接点を１つにまとめた、可動接点部を<br class="br-add_320-560">
+                            共通（COM,コモン）にした<br class="br-del_320-560">
+                            接点です。トランスファ接点、<br class="br-add_320-560">切り換え接点とも呼ばれています。<br><br>
+                            通常はb接点がつながっており、操作指令が入るとa接点が<br class="br-add_320-560">つながり、b接点が離れます。
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="emphasize"><i class="fas fa-pencil-alt"></i>スイッチの接点構成の表示</span>
+                        <br>
+                        <span class="font-size">スイッチは、接点の種類を「a、b、c」、<br class="br-add_320-560">
+                            接点数を「1、2、3」数字で表します。</span>
+                        <div class="box-top_bottom">
+                            <p>接点構成の例</p>
+                            <p><i class="fab fa-ethereum"></i>1a：a接点が1つのスイッチ</p>
+                            <p><i class="fab fa-ethereum"></i>2b：b接点が2つのスイッチ</p>
+                            <p><i class="fab fa-ethereum"></i>1a1b：a接点が1つ、b接点が1つのスイッチ</p>
+                        </div>
+                        <span class="font-size">1a1bのスイッチの接点構造は下記のイメージです。</span>
+                        <br><br>
+                        <div class="img2-8"></div>
+                    </div>
+                </li>
+                <!-- 接点の動作方式 -->
+                <li id="content003">
+                    <div class="sub-title">
+                        <p>接点の動作方式</p>
+                    </div>
+                    <span class="font-size">操作用スイッチは操作したときの接点状態の違いから<br class="br-add_320-560">「自動復帰接点（モーメンタリー<br class="br-add_560-720 br-del_320-560">
+                        動作）」<br class="br-del_560-720 br-add_320-560">「残留接点（オルタネイト動作）」<br class="br-add_320-560">
+                        「保持形接点」の3つに分類できます。
+                    </span>
+                    <br><br><br>
+                    <span class="emphasize"><i class="fas fa-pencil-alt"></i>自動復帰接点（モーメンタリー動作）</span>
+                    <div class="item">
+                        <div class="img3-1"></div>
+                        <div class="text">
+                            <span>押している間だけ状態を保持する接点です。<br><br>
+                                身近な例として、玄関の呼び鈴やゲームセンターにあるクレーンゲームの操作
+                                スイッチが<br class="br-del_320-560">挙げれます。<br class="br-add_320-560">このモーメンタリー動作のスイッチがよく使用されます。
+                            </span>
+                        </div>
+                    </div>
+                    <div class="br"></div>
+                    <span class="emphasize"><i class="fas fa-pencil-alt"></i>残留接点（オルタネイト動作）</span>
+                    <div class="item">
+                        <div class="img3-2"></div>
+                        <div class="text">
+                            <span>一度押したら離しても状態を保持する接点です。<br><br>
+                                操作部分は元の状態に戻ります。操作部分は自動復帰形<br class="br-add_320-560">で、接点は保持形のスイッチと<br class="br-add_560-720 br-del_320-560">
+                                覚えると良いです。<br class="br-add_320-560">長時間、状態を保持したい場合に使用します。<br class="br-add_320-560">身近な使用例として<br class="br-add_560-720 br-del_320-560">
+                                懐中電灯の電源スイッチやテレビの<br class="br-add_320-560">主電源スイッチが挙げられます。
+                            </span>
+                        </div>
+                    </div>
+                    <div class="br"></div>
+                    <span class="emphasize"><i class="fas fa-pencil-alt"></i>保持形接点</span>
+                    <div class="item">
+                        <div class="img3-3"></div>
+                        <div class="text">
+                            <span>操作によって接点が動作し、操作後も操作部分、接点<br class="br-add_320-560">ともにその状態を保持する<br class="br-add_560-720 br-del_320-560">接点です。<br><br>
+                                トグルスイッチやセレクタスイッチがその例です。<br class="br-add_320-560">ただし、トグルスイッチやセレクタ<br class="br-del_320-560">
+                                スイッチには<br class="br-add_320-560">モーメンタリー動作（操作をしても手を離すと元に戻る）<br class="br-add_320-560">タイプもあります<br class="br-del_320-560">
+                                ので注意する必要があります。
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <!-- スイッチを使用するにあたり -->
+                <li id="content004">
+                    <div class="sub-title">
+                        <p>スイッチを使用するにあたり</p>
+                    </div>
+                    <div class="item">
+                        <span class="font-size">スイッチは見た目はシンプルで機能もオン・オフと単純な<br class="br-add_320-560">部品ですが、大きさ、環境性能、<br class="br-add_560-720 br-del_320-560">
+                            接点構成、接点動作など<br class="br-add_320-560">様々な組み合わせがあります。用途に適したスイッチを<br class="br-add_320-560">選びま
+                            <br class="br-add_560-720 br-del_320-560">しょう。
+                            また、図面や回路をみるときは接点構成や<br class="br-add_320-560">接点動作に注意しましょう。
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================== -->
+<!--                         javascript 読込                         -->
+<!-- ============================================================== -->
+
+        <!-- javascript -->
+        <script type="text/javascript" src="../javascript/mobile-menu.js"></script>
+        <script type="text/javascript" src="../javascript/pace.js"></script>
+        <script type="text/javascript" src="../javascript/tester.js"></script>
+        <script type="text/javascript" src="../javascript/text-animation.js"></script>
+        <script type="text/javascript" src="../javascript/scroll.js"></script>
+        <script type="text/javascript" src="../javascript/tester-animation.js"></script>
+        <!-- jquery -->
+        <script type="text/javascript" src="../javascript/jquery-3.5.0.min.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-top-scroll.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-contents-scroll.js"></script>
+    </body>
+</html>

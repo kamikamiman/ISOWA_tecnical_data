@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイマー</title>
+    <script src="https://kit.fontawesome.com/022ed954ef.js" crossorigin="anonymous"></script>
+    <!-- リセットCSS読込 -->
+    <link rel="stylesheet" href="../style/reset.css">
+    <!-- スタイルCSS読込 -->
+    <link rel="stylesheet" href="../style/timer.css">
+    <link rel="stylesheet" href="../style/loader.css">
+</head>
+
+
+<!-- ============================================================== -->
+<!--                             ボディー                            -->
+<!-- ============================================================== -->
+<body>
+    <div id="global-container">
+        <!-- 共通設定 -->
+        <div class="header">
+            <nav class="mobile-menu">
+                <ul class="mobile-menu__main">
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="tester.html">
+                            <span class="title">テスター</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="../index.html">
+                            <span class="title">電気部品</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="e-drawing.html">
+                            <span class="title">電気図面</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="plc.html">
+                            <span class="title">工具</span>
+                        </a>
+                    </li>
+                    <!-- <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="tp.html">
+                            <span class="title">タッチパネル</span>
+                        </a>
+                    </li> -->
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="../index.html">
+                            <span class="title">メイン画面</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__container1">
+                <!-- 3点アニメション フリーズ確認用 -->
+                <div class="bounce">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <!-- 文字列アニメーション -->
+                <div class="char-box">
+                    ISOWA eLearning
+                </div>
+            </div>
+            <div class="header__container2">
+                <div class="header__menu-select">
+                    <ul>
+                        <li class="header__sub-menu1">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="tester.html" class="header__contents">テスター</a>
+                            <ul class="header__sub-menu1__list1">
+                                <!-- <li><a href="tester.html">テスターとは</a></li> -->
+                                <!-- <li><a href="#">電圧確認</a></li>
+                                <li><a href="#">断線調査</a></li> -->
+                                <!-- <li><a href="#"></a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu2">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="../index.html" class="header__contents">電気部品</a>
+                            <ul class="header__sub-menu2__list2">
+                                <li><a href="switch.html">スイッチ</a></li>
+                                <li><a href="relay.html">リレー</a></li>
+                                <li><a href="timer.html">タイマー</a></li>
+                                <li><a href="magnet.html">マグネットスイッチ</a></li>
+                                <!-- <li><a href="#">パワーサプライ</a></li> -->
+                                <!-- <li><a href="#">インバータ</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu3">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="e-drawing.html" class="header__contents">電気図面</a>
+                            <ul class="header__sub-menu3__list3">
+                                <!-- <li><a href="#">図面の見方</a></li> -->
+                                <!-- <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu4">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="plc.html" class="header__contents">工具</a>
+                            <ul class="header__sub-menu4__list4">
+                                <!-- <li><a href="#">シーケンサとは</a></li>
+                                <li><a href="#">パソコン接続方法</a></li>
+                                <li><a href="#">ソフト読出／書込</a></li>
+                                <li><a href="#">異常内容の調べ方</a></li> -->
+                                <!-- <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <!-- <li class="header__sub-menu5">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="tp.html" class="header__contents">タッチパネル</a>
+                            <ul class="header__sub-menu5__list5">
+                                <li><a href="#">タッチパネルとは</a></li>
+                                <li><a href="#">パソコン接続方法</a></li>
+                                <li><a href="#">ソフト読出／書込</a></li>
+                                <li><a href="#">SDカードを使用</a></li>
+                                <li><a href="#">異常内容の調べ方</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="header__sub-menu6">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <a href="../index.html" class="header__contents">トップ画面</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <a href="#" class="btn-scroll"><i class="fas fa-arrow-up fa-2x"></i></a>
+                <!-- メニューアイコン（モバイル画面のみ表示） -->
+                <button class="mobile-menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+
+<!-- ============================================================== -->
+<!--                           ここから本文                           -->
+<!-- ============================================================== -->
+
+        <div id="container">
+            <div class="mobile-menu__cover"></div>
+            <ul class="main-title animate-title">
+                <h1>タイマーリレーについて学ぼう！</h1>
+                
+                <div class="table-contents">
+                    <h2>目次</h2>
+                    <li class="contents">
+                        <a href="#content001" class="contents__link">タイマーリレーとは</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content002" class="contents__link">タイマーリレーの接点と端子番号</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content003" class="contents__link">タイマーを使用するにあたり</a>
+                    </li>
+                </div>
+
+                <!-- タイマーリレーとは -->
+                <li id="content001">
+                    <div class="sub-title">
+                        <p>タイマーリレーとは</p>
+                    </div>
+                    <div class="item">
+                        <div class="img1-1"></div>
+                        <div class="text">
+                            <span>一般的なタイマーリレーは、限時継電器とも呼ばれます。信号を受けてから設定時間が<br class="br-del_320-560 br-add_560-720">経過後、接点を開閉します。
+                                イメージとしてリレー（継電器）の動作にタイマー機能が<br class="br-add_560-720">付いたリレーと思えば良いです。
+                                上記写真はソケット（端子台）に差し込みタイプのタイマリレーです。
+                                タイマー動作には２種類あり、オンディレイタイマとオフディレイ<br class="br-add_560-720">タイマがあります。
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="main-emphasize"><i class="fas fa-bolt"></i>オンディレイタイマ動作</span>
+                        <div class="img1-2"></div>
+                        <div class="text">
+                            <span>オンディレイタイマー（限時動作瞬時復帰接点）はコイルが励磁されてから設定時間経過後に接点が動作し、コイルが消磁した時にすぐ復帰する接点動作のことを言います。<br class="br-add_560-720">
+                                ポンプなどを設定時間の間だけ動かしたい場合に利用<br class="br-add_320-560">します。<br class="br-add_560-720"><br class="br-add_320-560">
+                            </span>
+                        </div>
+                            <br><br>
+                        <span class="main-emphasize"><i class="fas fa-bolt"></i>オフディレイタイマ動作</span>
+                        <div class="img1-3"></div>
+                        <div class="text">
+                            <span>オフディレイタイマー（瞬時動作限時復帰接点）はコイルが励磁されると、すぐに接点が動作し、コイルが消磁してから設定時間経過後に接点が動作することを言います。<br class="br-add_560-720">
+                                家の玄関の照明（人が近づいてから一定時間は消灯しない）などに使用されています。
+                            </span>
+                            </div>    
+                        </div>
+                </li>
+                <!-- タイマーリレーの接点と端子番号 -->
+                <li id="content002">
+                    <div class="sub-title">
+                        <p>タイマーリレーの接点と端子番号</p>
+                    </div>
+                    <div class="item">
+                            <div class="img2-1"></div>
+                            <div class="text">
+                                <span>今回はオンディレイ仕様の一般的なタイマーリレーで説明します。<br class="br-del_320-560">
+                                    配線は有接点リレーと同じ配線となります。<br class="br-add_320-560">
+                                    １３番と１４番はコイル端子（電源部）<br class="br-del_320-560 br-add_560-720">です。
+                                    この１３番と１４番に電圧を加えると、タイマー回路の計測部が働きます。<br><br>
+                                    そして設定時間になると接点が開閉します。<br>
+                                    コイル電圧が直流の場合は１３番に－側の配線を１４番に＋側の配線を接続します。<br class="br-del_320-560">
+                                    どちらがプラスかマイナスか<br class="br-add_320-560">分からなくなった場合はタイマリレー側面に書かれている<br>
+                                    回路を確認しましょう。<br><br>
+                                    接点に関して、上図のタイマリレーは２Ｃです。<br>
+                                    a接点を使用する場合は、端子台「５」と「９」または「８」「１２」に配線を接続。<br>
+                                    b接点を使用する場合は、端子台「１」と「９」または「４」「１２」に配線を接続<br class="br-del_320-560 br-add_560-720">します。
+                                </span>
+                            </div>
+                    </div>
+                </li>
+                <!-- タイマーを使用するにあたり -->
+                <li id="content003">
+                    <div class="sub-title">
+                        <p>タイマーを使用するにあたり</p>
+                    </div>
+                    <div class="item">
+                        <span>タイマー動作は制御の中で必要な知識です。<br>
+                            今回はタイマの基本的な動作である「オンディレイ動作」と<br class="br-add_320-560">「オフディレイ動作」について説明<br class="br-del_320-560">
+                            しました。タイマには<br class="br-add_320-560">他にも様々な種類があります。設定したい時間、接点数や<br class="br-add_320-560">動作タイミング<br class="br-del_320-560">
+                            など用途に合ったタイマを選定しましょう。<br class="br-add_320-560">また、設定時間に間違えがないようにしっかりと<br class="br-del_320-560">
+                            確認しま<br class="br-add_320-560">しょう。</span>
+
+                    </div>
+                    <div class="br"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================== -->
+<!--                         javascript 読込                         -->
+<!-- ============================================================== -->
+
+        <!-- javascript -->
+        <script type="text/javascript" src="../javascript/mobile-menu.js"></script>
+        <script type="text/javascript" src="../javascript/pace.js"></script>
+        <script type="text/javascript" src="../javascript/tester.js"></script>
+        <script type="text/javascript" src="../javascript/text-animation.js"></script>
+        <script type="text/javascript" src="../javascript/scroll.js"></script>
+        <script type="text/javascript" src="../javascript/tester-animation.js"></script>
+        <!-- jquery -->
+        <script type="text/javascript" src="../javascript/jquery-3.5.0.min.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-top-scroll.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-contents-scroll.js"></script>
+    </body>
+</html>

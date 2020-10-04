@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リレー</title>
+    <script src="https://kit.fontawesome.com/022ed954ef.js" crossorigin="anonymous"></script>
+    <!-- リセットCSS読込 -->
+    <link rel="stylesheet" href="../style/reset.css">
+    <!-- スタイルCSS読込 -->
+    <link rel="stylesheet" href="../style/magnet.css">
+    <link rel="stylesheet" href="../style/loader.css">
+</head>
+
+
+<!-- ============================================================== -->
+<!--                             ボディー                            -->
+<!-- ============================================================== -->
+<body>
+    <div id="global-container">
+        <!-- 共通設定 -->
+        <div class="header">
+            <nav class="mobile-menu">
+                <ul class="mobile-menu__main">
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="tester.html">
+                            <span class="title">テスター</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="../index.html">
+                            <span class="title">電気部品</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="e-drawing.html">
+                            <span class="title">電気図面</span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="plc.html">
+                            <span class="title">工具</span>
+                        </a>
+                    </li>
+                    <!-- <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="tp.html">
+                            <span class="title">タッチパネル</span>
+                        </a>
+                    </li> -->
+                    <li class="mobile-menu__item">
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <div class="trans"></div>
+                        <a class="mobile-menu__link" href="../index.html">
+                            <span class="title">メイン画面</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__container1">
+                <!-- 3点アニメション フリーズ確認用 -->
+                <div class="bounce">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <!-- 文字列アニメーション -->
+                <div class="char-box">
+                    ISOWA eLearning
+                </div>
+            </div>
+            <div class="header__container2">
+                <div class="header__menu-select">
+                    <ul>
+                        <li class="header__sub-menu1">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="tester.html" class="header__contents">テスター</a>
+                            <ul class="header__sub-menu1__list1">
+                                <!-- <li><a href="tester.html">テスターとは</a></li> -->
+                                <!-- <li><a href="#">電圧確認</a></li>
+                                <li><a href="#">断線調査</a></li> -->
+                                <!-- <li><a href="#"></a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu2">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="../index.html" class="header__contents">電気部品</a>
+                            <ul class="header__sub-menu2__list2">
+                                <li><a href="switch.html">スイッチ</a></li>
+                                <li><a href="relay.html">リレー</a></li>
+                                <li><a href="timer.html">タイマー</a></li>
+                                <li><a href="magnet.html">マグネットスイッチ</a></li>
+                                <!-- <li><a href="#">パワーサプライ</a></li> -->
+                                <!-- <li><a href="#">インバータ</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu3">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="e-drawing.html" class="header__contents">電気図面</a>
+                            <ul class="header__sub-menu3__list3">
+                                <!-- <li><a href="#">図面の見方</a></li> -->
+                                <!-- <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <li class="header__sub-menu4">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="plc.html" class="header__contents">工具</a>
+                            <ul class="header__sub-menu4__list4">
+                                <!-- <li><a href="#">シーケンサとは</a></li>
+                                <li><a href="#">パソコン接続方法</a></li>
+                                <li><a href="#">ソフト読出／書込</a></li>
+                                <li><a href="#">異常内容の調べ方</a></li> -->
+                                <!-- <li><a href="#"></a></li> -->
+                            </ul>
+                        </li>
+                        <!-- <li class="header__sub-menu5">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>    
+                            <a href="tp.html" class="header__contents">タッチパネル</a>
+                            <ul class="header__sub-menu5__list5">
+                                <li><a href="#">タッチパネルとは</a></li>
+                                <li><a href="#">パソコン接続方法</a></li>
+                                <li><a href="#">ソフト読出／書込</a></li>
+                                <li><a href="#">SDカードを使用</a></li>
+                                <li><a href="#">異常内容の調べ方</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="header__sub-menu6">
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <div class="trans"></div>
+                            <a href="../index.html" class="header__contents">トップ画面</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <a href="#" class="btn-scroll"><i class="fas fa-arrow-up fa-2x"></i></a>
+                <!-- メニューアイコン（モバイル画面のみ表示） -->
+                <button class="mobile-menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+
+<!-- ============================================================== -->
+<!--                           ここから本文                           -->
+<!-- ============================================================== -->
+
+        <div id="container">
+            <div class="mobile-menu__cover"></div>
+            <ul class="main-title animate-title">
+                <h1>マグネットスイッチについて学ぼう！</h1>
+                
+                <div class="table-contents">
+                    <h2>目次</h2>
+                    <li class="contents">
+                        <a href="#content001" class="contents__link">電磁接触器とは</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content002" class="contents__link">電磁開閉器とは</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content003" class="contents__link">電磁接触器と電磁開閉器の見分け方</a>
+                    </li>
+                    <li class="contents">
+                        <a href="#content004" class="contents__link">両者の違い</a>
+                    </li>
+                </div>
+
+                <!-- 電磁接触器とは -->
+                <li id="content001">
+                    <div class="sub-title">
+                        <p>電磁接触器とは</p>
+                    </div>
+                    <div class="item">
+                        <div class="img1-1"></div>
+                        <div class="text">
+                            <span>電磁接触器はコイルの電磁力によって接点を開閉する装置です。<br>
+                                電流容量の大きい主接点と電流容量の小さい補助接点を備えています。<br>
+                                主にモーターなどの大きな負荷電流の開閉を目的に使用されます。
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <!-- 電磁開閉器とは -->
+                <li id="content002">
+                    <div class="sub-title">
+                        <p>電磁開閉器とは</p>
+                    </div>
+                    <div class="item">
+                            <div class="img2-1"></div>
+                            <div class="text">
+                                <span>電磁開閉器は、電磁接触器とサーマルリレー（熱動継電器）を組み合わせたもので、<br>
+                                    電動機制御の主回路などに使用されます。
+                                    呼び方は「マグネットスイッチ」（略称：ＭＳ）です。
+                                    サーマルリレーのサーマルとは「熱で動作する」ことを意味します。</span>
+                            </div>
+                    </div>
+                    <div class="item">
+                            <div class="img2-2"></div>
+                            <div class="text">
+                                <span>サーマルリレー（熱動継電器）は、電動機などの負荷の機器を守るために、<br>
+                                    負荷電流が設定値以上になった時に接点を開閉させる過負荷保護用の継電器です。<br>
+                                    電気の力で動作せずに熱の力で動作します。</span>
+                            </div>
+                    </div>
+                    <div class="item">
+                        <div class="img2-3"></div>
+                        <div class="text">
+                            <span>主端子間の電線（ヒーター線）はバイメタルに巻かれており、この電線に流れる電流が
+                                一定値以上になると、熱せられたバイメタルが変形して、これに連動したレバーによって
+                                機械的に接点を動作させます。
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img2-4"></div>
+                        <div class="text">
+                            <span>例として上図のサーマルリレーを使用した場合、設定値は1.7～2.5Aまで設定できます。
+                                仮に定格2.1Aの電動機を接続する場合は、RC目盛りの為、2.1Aにつまみを合わせます。
+                                もし、つまみを2.5Aした場合は、2.1Aに設定した時よりサーマルが動作するまで時間がかかります。
+                                間違えて設定すると動作しなかったり、すぐに動作することがあるので気を付けましょう。
+                            </span>
+                        </div>
+                    </div>
+
+                </li>
+                <!-- 電磁接触器と電磁開閉器の見分け方 -->
+                <li id="content003">
+                    <div class="sub-title">
+                        <p>電磁接触器と電磁開閉器の見分け方</p>
+                    </div>
+                    <div class="item">
+                        <div class="img3-1"></div>
+                        <div class="text">
+                            電磁開閉器にはサーマルリレー（熱動継電器）が付属しており、外観上から容易に見分けることができます。
+                        </div>
+                    </div>
+                    <div class="br"></div>
+                </li>
+                <!-- 両者の違い -->
+                <li id="content004">
+                    <div class="sub-title">
+                        <p>両者の違い</p>
+                    </div>
+                    <span>
+                        簡単に言えば、電磁接触器と電磁開閉器の違いはサーマルリレーの有り無しです。<br>
+                        電磁接触器、電磁開閉器のどちらも電気制御では必ず扱う機器です。<br><br>
+                        特に多いのはモーターのリモート操作で、ここでは必ず自己保持回路が組まれています。<br>
+                        万一、停電して電動機が停止した場合、復電でいきなり始動せず、押しボタンスイッチ<br>
+                        での再操作が必要になります。また、サーマルリレーを用いることで、電動機の過負荷<br>
+                        などによる焼損を防止し、安全性を保つことができます。<br><br>
+                        機器の名称や機能だけでなく、押しボタンスイッチやサーマルリレーを組み合わせた<br>
+                        接続も理解できるようにしましょう。
+                    </span>
+                    <div class="br"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================== -->
+<!--                         javascript 読込                         -->
+<!-- ============================================================== -->
+
+        <!-- javascript -->
+        <script type="text/javascript" src="../javascript/mobile-menu.js"></script>
+        <script type="text/javascript" src="../javascript/pace.js"></script>
+        <script type="text/javascript" src="../javascript/tester.js"></script>
+        <script type="text/javascript" src="../javascript/text-animation.js"></script>
+        <script type="text/javascript" src="../javascript/scroll.js"></script>
+        <script type="text/javascript" src="../javascript/tester-animation.js"></script>
+        <!-- jquery -->
+        <script type="text/javascript" src="../javascript/jquery-3.5.0.min.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-top-scroll.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-contents-scroll.js"></script>
+    </body>
+</html>
